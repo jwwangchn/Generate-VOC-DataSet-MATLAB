@@ -9,5 +9,4 @@
 
 ## Reference
 [1] [利用matlab将自己的数据制作为标准VOC数据集格式](http://blog.csdn.net/kunyxu/article/details/53709728)
-
 [2] [VOC-xml标注文件制作及其交互使用(修改，预览，存储)的MATLAB实现](http://blog.csdn.net/cuixing001/article/details/77092627)
