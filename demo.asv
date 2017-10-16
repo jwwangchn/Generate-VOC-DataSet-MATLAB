@@ -1,0 +1,11 @@
+% 使用 image 中的图像和 imageLabler 标注工具生成的标注文件 
+
+src_image_path = 'image';
+VOC_image_path = 'VOC-Data/JPEGImages';
+load('ImageLabeler_Car.mat')
+
+image_name_convert(src_image_path, VOC_image_path)
+
+matlab_to_xml(Car)
+
+generate_train_test_val_file
